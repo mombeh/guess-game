@@ -1,0 +1,33 @@
+.containers {
+  background-color: #4444d3;
+  padding: 5rem;
+  height: fixed;
+}
+
+.ctn {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.num1 {
+  justify-items: center;
+}
+
+input  button {
+  text-align: center;
+  padding: 2.5rem;
+  border-radius: 7px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+button {
+  color: #fff;
+  background-color: #834883;
+  border: none;
+  padding: 0.7rem;
+  border-radius: 4px;
+  margin-top: 7px;
+}
