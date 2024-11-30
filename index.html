@@ -13,16 +13,15 @@
                 <h5>I am thinking of a number between 1-100. </h5>
                 <h5 style="justify-self: center;margin-top: -23px;">can you guess it?</h5>
             </div>
-            <input type="text" name="5">
-            <div>
-                <button>GUESS</button>
+            <input type="text" placeholder="Enter your guess" id="guessinput" min="1" max="100">
+            <div class="guess">
+                <button id="guessbutton">GUESS</button> 
             </div>
-            <div class="num2">
-                <p>Your guess is too low.</p>
-                <p style="justify-self: center;margin-top: -10px;">NO. of guesss:1</p>
-                <p style="margin-top: -10px;">Guessed numbers are:5</p>
-            </div>
+            <p id="feedback"></p>
+            <p id="attempt"></p>
+            <button id="restart" style="display: none;">RESTART</button>
         </div>
     </div>
+    <script src="script/guess-game.js"></script>
 </body>
 </html>
