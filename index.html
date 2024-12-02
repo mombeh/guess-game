@@ -7,6 +7,24 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-    
+    <div class="containers">
+        <div class="ctn">
+            <div>
+                <h1>This is Nadine's guessing game</h1>
+            </div>
+            <div class="num1"> 
+                <h5>I am thinking of a number between 1-100. </h5>
+                <h5 style="justify-self: center;margin-top: -23px;">can you guess it?</h5>
+            </div>
+            <input type="text" placeholder="Enter your guess" id="guessinput" min="1" max="100">
+            <div class="guess">
+                <button id="guessbutton">GUESS</button> 
+            </div>
+            <p id="feedback"></p>
+            <p id="attempt"></p>
+            <button id="restart" style="display: none;">RESTART</button>
+        </div>
+    </div>
+    <script src="script/guess-game.js"></script>
 </body>
 </html>
