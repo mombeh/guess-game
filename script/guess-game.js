@@ -11,7 +11,7 @@ const restart = document.getElementById('restart')
  
 //guess function
 guessButton.addEventListener('click', () => {
-    const userGuess = parseInt(guessInput.value)
+    const userGuess = parseInt(guessInput.value, 10)
     attempt++
 
     if (isNaN(userGuess) || userGuess < 1 || userGuess > 100) {
