@@ -8,7 +8,7 @@ const guessButton = document.getElementById('guessbutton')
 const feedback = document.getElementById('feedback')
 const attemptDisplay = document.getElementById('attempt')
 const restart = document.getElementById('restart')
- 
+
 // Guess function
 guessButton.addEventListener('click', () => {
   const userGuess = parseInt(guessInput.value, 10)
